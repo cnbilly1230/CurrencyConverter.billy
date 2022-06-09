@@ -11,10 +11,12 @@ public class ExchangeRateConverter {
             return new BigDecimal("1");
         }
         if(inputCurrency == Currency.EURO){
-            exchangeRate = euroExchangeRate.get(inputCurrency);
+            exchangeRate = euroExchangeRate.get(targetCurrency);
+            return exchangeRate;
         }
         if(targetCurrency == Currency.EURO){
-            exchangeRate = new BigDecimal("1").divide(euroExchangeRate.get(inputCurrency),RoundingMode.HALF_EVEN);
+            exchangeRate = new BigDecimal("1").divide(euroExchangeRate.get(inputCurrency), 6,RoundingMode.HALF_EVEN);
+            return exchangeRate;
         }
 
         exchangeRate = (euroExchangeRate.get(targetCurrency)).divide(euroExchangeRate.get(inputCurrency),6, RoundingMode.HALF_EVEN);

@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
@@ -46,7 +47,7 @@ public class ExchangeRateConvertorTest {
             put(Currency.THB, new BigDecimal("36.284"));
             put(Currency.ZAR, new BigDecimal("16.7131"));
         }};
-        System.out.println(ExchangeRateConverter.convertExchangeRate(Currency.USD,Currency.HKD,testingMap));
-
+        BigDecimal calculatedExchangeRate = ExchangeRateConverter.convertExchangeRate(Currency.USD,Currency.EURO,testingMap);
+        assertEquals(new BigDecimal("0.945448"),calculatedExchangeRate);
     }
 }
