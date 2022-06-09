@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50f756c3-1dea-469f-860c-44a69cd6f772" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29ushJ2ElUqe2fEr4yNzzvshUbK" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.CurrencyConverterTest">
+    <configuration name="CurrencyConvertor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bootcamp.labexercise.java.CurrencyConvertor" />
+      <module name="CurrencyConverter" />
+      <option name="PROGRAM_PARAMETERS" value="-a 10000 -f USD -t JPY -i fx-rates.xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootcamp.labexercise.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrencyConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CurrencyConverter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootcamp.labexercise.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bootcamp.labexercise.java" />
+      <option name="MAIN_CLASS_NAME" value="bootcamp.labexercise.java.CurrencyConverterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExchangeRateConvertorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CurrencyConverter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootcamp.labexercise.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bootcamp.labexercise.java" />
+      <option name="MAIN_CLASS_NAME" value="bootcamp.labexercise.java.ExchangeRateConvertorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExchangeRateExtractorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CurrencyConverter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootcamp.labexercise.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bootcamp.labexercise.java" />
+      <option name="MAIN_CLASS_NAME" value="bootcamp.labexercise.java.ExchangeRateExtractorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipalCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CurrencyConverter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bootcamp.labexercise.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bootcamp.labexercise.java" />
+      <option name="MAIN_CLASS_NAME" value="bootcamp.labexercise.java.PrincipalCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CurrencyConvertor" />
+      <item itemvalue="JUnit.CurrencyConverterTest" />
+      <item itemvalue="JUnit.PrincipalCalculatorTest" />
+      <item itemvalue="JUnit.ExchangeRateExtractorTest" />
+      <item itemvalue="JUnit.ExchangeRateConvertorTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CurrencyConverterTest" />
+        <item itemvalue="JUnit.PrincipalCalculatorTest" />
+        <item itemvalue="JUnit.ExchangeRateConvertorTest" />
+        <item itemvalue="JUnit.ExchangeRateExtractorTest" />
+        <item itemvalue="Application.CurrencyConvertor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50f756c3-1dea-469f-860c-44a69cd6f772" name="Changes" comment="" />
+      <created>1653974427596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653974427596</updated>
+    </task>
+    <servers />
+  </component>
+</project>
